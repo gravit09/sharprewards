@@ -1,0 +1,309 @@
+{
+  "user": {
+    "id": "usr_001",
+    "firstName": "Sarah",
+    "lastName": "Johnson",
+    "email": "sarah.johnson@email.com",
+    "phone": "+1 (555) 123-4567",
+    "memberSince": "2023-03-15",
+    "tier": "Gold",
+    "points": 12450,
+    "pointsToNextTier": 7550,
+    "nextTier": "Platinum",
+    "totalEarned": 24680,
+    "totalRedeemed": 12230,
+    "memberId": "SRP-892743651"
+  },
+  "tiers": [
+    {
+      "name": "Bronze",
+      "minPoints": 0,
+      "maxPoints": 4999,
+      "color": "#CD7F32",
+      "benefits": ["1x points on purchases", "Birthday bonus 100 pts"]
+    },
+    {
+      "name": "Silver",
+      "minPoints": 5000,
+      "maxPoints": 9999,
+      "color": "#C0C0C0",
+      "benefits": ["1.5x points on purchases", "Birthday bonus 250 pts", "Early access to sales"]
+    },
+    {
+      "name": "Gold",
+      "minPoints": 10000,
+      "maxPoints": 19999,
+      "color": "#FFD700",
+      "benefits": ["2x points on purchases", "Birthday bonus 500 pts", "Early access to sales", "Free shipping"]
+    },
+    {
+      "name": "Platinum",
+      "minPoints": 20000,
+      "maxPoints": 999999,
+      "color": "#E5E4E2",
+      "benefits": ["3x points on purchases", "Birthday bonus 1000 pts", "Priority support", "Exclusive events", "Free express shipping"]
+    }
+  ],
+  "rewards": [
+    {
+      "id": "rwd_001",
+      "title": "$5 Off Your Purchase",
+      "description": "Get $5 off on any purchase of $25 or more",
+      "points": 500,
+      "category": "discount",
+      "image": "gift",
+      "expiresIn": "30 days",
+      "featured": true
+    },
+    {
+      "id": "rwd_002",
+      "title": "$10 Gift Card",
+      "description": "Digital gift card valid on all products",
+      "points": 1000,
+      "category": "gift_card",
+      "image": "card",
+      "expiresIn": "60 days",
+      "featured": true
+    },
+    {
+      "id": "rwd_003",
+      "title": "Free Shipping",
+      "description": "Free standard shipping on your next order",
+      "points": 300,
+      "category": "shipping",
+      "image": "truck",
+      "expiresIn": "14 days",
+      "featured": false
+    },
+    {
+      "id": "rwd_004",
+      "title": "$25 Gift Card",
+      "description": "Premium digital gift card for loyal members",
+      "points": 2500,
+      "category": "gift_card",
+      "image": "card",
+      "expiresIn": "90 days",
+      "featured": true
+    },
+    {
+      "id": "rwd_005",
+      "title": "Exclusive Product Access",
+      "description": "Early access to new product launches",
+      "points": 1500,
+      "category": "exclusive",
+      "image": "star",
+      "expiresIn": "7 days",
+      "featured": false
+    },
+    {
+      "id": "rwd_006",
+      "title": "20% Off Coupon",
+      "description": "20% discount on a single item",
+      "points": 800,
+      "category": "discount",
+      "image": "percent",
+      "expiresIn": "21 days",
+      "featured": true
+    },
+    {
+      "id": "rwd_007",
+      "title": "$50 Gift Card",
+      "description": "Premium gift card for our top members",
+      "points": 5000,
+      "category": "gift_card",
+      "image": "card",
+      "expiresIn": "120 days",
+      "featured": false
+    },
+    {
+      "id": "rwd_008",
+      "title": "Double Points Day",
+      "description": "Earn 2x points on your next purchase",
+      "points": 600,
+      "category": "bonus",
+      "image": "zap",
+      "expiresIn": "3 days",
+      "featured": false
+    }
+  ],
+  "offers": [
+    {
+      "id": "off_001",
+      "title": "Weekend Bonus",
+      "description": "Earn 3x points this weekend on all electronics",
+      "bonusPoints": 500,
+      "validUntil": "2026-01-13",
+      "image": "lightning",
+      "category": "bonus",
+      "isNew": true
+    },
+    {
+      "id": "off_002",
+      "title": "Refer a Friend",
+      "description": "Earn 1000 points for each friend who joins",
+      "bonusPoints": 1000,
+      "validUntil": "2026-02-28",
+      "image": "users",
+      "category": "referral",
+      "isNew": false
+    },
+    {
+      "id": "off_003",
+      "title": "Survey Reward",
+      "description": "Complete a quick survey and earn bonus points",
+      "bonusPoints": 150,
+      "validUntil": "2026-01-20",
+      "image": "clipboard",
+      "category": "survey",
+      "isNew": true
+    },
+    {
+      "id": "off_004",
+      "title": "App Exclusive",
+      "description": "Shop via app and earn 2x points today",
+      "bonusPoints": 300,
+      "validUntil": "2026-01-15",
+      "image": "smartphone",
+      "category": "bonus",
+      "isNew": false
+    }
+  ],
+  "transactions": [
+    {
+      "id": "txn_001",
+      "type": "earned",
+      "title": "Purchase at Sharp Store",
+      "description": "Order #SHP-98234",
+      "points": 450,
+      "date": "2026-01-10",
+      "status": "completed"
+    },
+    {
+      "id": "txn_002",
+      "type": "redeemed",
+      "title": "$10 Gift Card Redeemed",
+      "description": "Digital gift card",
+      "points": -1000,
+      "date": "2026-01-08",
+      "status": "completed"
+    },
+    {
+      "id": "txn_003",
+      "type": "earned",
+      "title": "Bonus Points - Weekend Sale",
+      "description": "3x points promotion",
+      "points": 750,
+      "date": "2026-01-06",
+      "status": "completed"
+    },
+    {
+      "id": "txn_004",
+      "type": "earned",
+      "title": "Survey Completion",
+      "description": "Customer feedback survey",
+      "points": 150,
+      "date": "2026-01-05",
+      "status": "completed"
+    },
+    {
+      "id": "txn_005",
+      "type": "redeemed",
+      "title": "Free Shipping Used",
+      "description": "Order #SHP-97856",
+      "points": -300,
+      "date": "2026-01-03",
+      "status": "completed"
+    },
+    {
+      "id": "txn_006",
+      "type": "earned",
+      "title": "Purchase at Sharp Store",
+      "description": "Order #SHP-97421",
+      "points": 280,
+      "date": "2026-01-02",
+      "status": "completed"
+    },
+    {
+      "id": "txn_007",
+      "type": "earned",
+      "title": "Referral Bonus",
+      "description": "Friend joined via your link",
+      "points": 1000,
+      "date": "2025-12-28",
+      "status": "completed"
+    },
+    {
+      "id": "txn_008",
+      "type": "redeemed",
+      "title": "$5 Off Coupon Used",
+      "description": "Order #SHP-96234",
+      "points": -500,
+      "date": "2025-12-25",
+      "status": "completed"
+    },
+    {
+      "id": "txn_009",
+      "type": "earned",
+      "title": "Birthday Bonus",
+      "description": "Gold tier birthday reward",
+      "points": 500,
+      "date": "2025-12-20",
+      "status": "completed"
+    },
+    {
+      "id": "txn_010",
+      "type": "earned",
+      "title": "Purchase at Sharp Store",
+      "description": "Order #SHP-95123",
+      "points": 620,
+      "date": "2025-12-15",
+      "status": "completed"
+    }
+  ],
+  "myRewards": [
+    {
+      "id": "my_001",
+      "rewardId": "rwd_003",
+      "title": "Free Shipping",
+      "description": "Free standard shipping on your next order",
+      "code": "SHIP-8923-XKPL",
+      "expiresAt": "2026-01-25",
+      "status": "active"
+    },
+    {
+      "id": "my_002",
+      "rewardId": "rwd_001",
+      "title": "$5 Off Your Purchase",
+      "description": "Get $5 off on any purchase of $25 or more",
+      "code": "SAVE5-7234-MNBC",
+      "expiresAt": "2026-02-10",
+      "status": "active"
+    }
+  ],
+  "quickActions": [
+    {
+      "id": "qa_001",
+      "title": "Scan Receipt",
+      "icon": "camera",
+      "color": "#6366F1"
+    },
+    {
+      "id": "qa_002",
+      "title": "Find Store",
+      "icon": "map-pin",
+      "color": "#10B981"
+    },
+    {
+      "id": "qa_003",
+      "title": "My Rewards",
+      "icon": "gift",
+      "color": "#F59E0B"
+    },
+    {
+      "id": "qa_004",
+      "title": "Support",
+      "icon": "headphones",
+      "color": "#EC4899"
+    }
+  ]
+}
